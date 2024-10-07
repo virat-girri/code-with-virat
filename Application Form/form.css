@@ -1,0 +1,164 @@
+.main{
+    width: 800px;
+    margin: auto;
+}
+.row-1{
+    display: flex;
+    justify-content: space-around;
+}
+.row-1-A input{
+
+    width:350px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.row-1-B input{
+
+    width:350px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+/* row-2 */
+.row-2{
+    display: flex;
+    justify-content: space-around;
+}
+.row-2-A input{
+
+    width:350px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.row-2-B input{
+
+    width:350px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+/* row-3 */
+.row-3{
+    display: flex;
+    justify-content: space-around;
+}
+.row-3-A input{
+
+    width:350px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.row-3-B select{
+
+    width:350px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+/* row-4 */
+.row-4{
+    margin-left: 18px;
+}
+
+.row-4-a {
+
+    width:730px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+    /* text-align: center; */
+    line-height: 35px;
+}
+/* row-5 */
+.row-5{
+    margin-left: 18px;
+}
+
+.row-5-a {
+
+    width:730px;
+    height: 100px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+    /* text-align: center; */
+   
+}
+.row-5-a textarea {
+
+    width:724px;
+    height: 94px;
+    
+}
+/* row-6 */
+.row-6{
+    margin-left: 18px;
+}
+
+.row-6-a {
+
+    width:730px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+    /* text-align: center; */
+    line-height: 35px;
+}
+/* row-7 */
+.row-7{
+    margin-left: 18px;
+}
+
+.image {
+
+    width:720px;
+    height: 35px;
+    border: 1px groove black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px black;
+    /* text-align: center; */
+    line-height: 35px;
+    padding-left: 10px;
+}
+/* row-8 */
+.row-8{
+
+    display: flex;
+    justify-content: center;
+}
+.row-8 input{
+    width:100px;
+    height:44px;
+    background-color: #9b59b6;
+    color:#ffffff;
+    border-radius: 4px;
+
+    border: none;
+}
+.row-8 input:hover{
+    width:100px;
+    height:44px;
+    background-color: #cdcbcb;
+    color:black;
+    border-radius: 4px;
+    transition: 0.8s;
+
+}
+.submit{
+    margin: 10px;
+}
+.reset{
+    margin:10px;
+}
