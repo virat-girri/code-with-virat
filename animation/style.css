@@ -1,0 +1,435 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(2, 2, 28);
+
+}
+ul li span{
+            
+    text-indent: -9999;
+}
+.solarsystem{
+    list-style: none;
+    height: 500px;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.solarsystem li{
+    position: absolute;
+    display: block;
+   
+    
+    animation: Sample infinite linear;
+    
+  
+}
+
+li.sun{
+    width:50px;
+    height:50px;
+    background: #fc3;
+    box-shadow: 0 0 50px #c90;
+    border-radius: 50%;
+
+    box-shadow: 0 0 50px #c90;
+    border-radius: 50%;
+    transition:all 0.5s;
+    animation-duration: 2s;
+}
+span{
+    position: absolute;
+    display: block;
+}
+span li.span{
+    position: absolute;
+    display: block;
+}
+li.mercury{
+    width:100px;
+    height: 100px;
+    border: 1px solid #394057;
+    border-radius: 50%;
+    transition:all 0.5s;
+    animation-duration: 5s;
+}
+.mercury span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #b6bac5;
+    top: 10px;
+    left: 8px;
+    
+} 
+li.venus{
+    width:150px;
+    height: 150px;
+    border: 1px solid #394057;
+    border-radius: 50%;
+    /* transition:all 0.5s; */
+    animation-duration: 8s;
+}
+.venus span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #bf8639;
+    top: 104px;
+    left: 0px;
+    
+} 
+li.earth{
+    width:200px;
+    height: 200px;
+    border: 1px solid #394057;
+    border-radius: 50%;
+    /* transition:all 0.5s; */
+    animation-duration: 12s;
+}
+.earth span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(0, 132, 255);
+    top: 193px;
+    left: 69px;
+    position: relative;
+    
+
+    
+} 
+li.moon{
+    
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(5, 5, 5);
+    top: -6px;
+    left: -5px;
+    transition:all 0.5s;
+    animation: moon 1s infinite linear;
+    animation-duration: 3s;
+    
+}
+.moon span{
+width:3px;
+height: 3px;
+    top:14px;
+    left:22px;
+    border-radius:50%;
+    
+    background: white;
+
+}
+li.mars{
+    width:250px;
+    height: 250px;
+    border: 1px solid #394057;
+    border-radius: 50%;
+    /* transition:all 0.5s; */
+    animation-duration: 15s;
+}
+.mars span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #aa4200;
+    top: 198px;
+    left: 22px;
+    
+
+    
+}
+li.astroid{
+    width:300px;
+    height: 300px;
+    border: 1px solid #394057;
+    border-radius: 50%;
+    /* background: url(http://neography.com/experiment/circles/solarsystem/asteroids_meteorids.png); */
+    /* transition:all 0.5s; */
+    animation-duration: 18s;
+}
+.astroid span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc0b8;
+    top: 112px;
+    left: 0px;
+    
+
+    
+}
+li.jupiter{
+    width:350px;
+    height: 350px;
+    border: 1px solid #394057;
+    border-radius: 50%;
+    /* transition:all 0.5s; */
+    animation-duration:30s;
+}
+.jupiter span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #51bde8;
+    top: 77px;
+    left: 318px;
+    
+
+    
+}
+li.saturn{
+    width:400px;
+    height: 400px;
+    border: 1px solid #394057;
+    border-radius: 50%;
+    transition:all 0.5s;
+    animation-duration: 50s;
+}
+.saturn span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fdde6c;
+    top: 8px;
+    left: 263px;
+    
+
+    
+}
+.ring{
+    
+    width: 7px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    border: .1px solid #ccc;
+    top: -7px;
+    left: 0px;
+    transition: all 0.5s;
+    animation: moon 1s infinite linear;
+    animation-duration: 12s;
+}
+
+
+@keyframes Sample {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes moon {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+        /* body{
+            margin: 0;
+            padding: 0;
+            background-color: #080e24;
+        }
+       
+        ul.solarsystem{
+            list-style: none;
+            height: 627px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.9s;
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            align-content: space-around;
+        }
+        ul li span{
+            
+            text-indent: -9999;
+        }
+        ul.solarsystem li{
+            position: absolute;
+            display: block;
+            animation: orbit infinite linear;
+        }
+        ul.solarsystem li span{
+            position: absolute;
+            display: block;
+        }
+       
+        ul.solarsystem li.sun{
+            width: 50px;
+            height: 50px;
+            background: #fc3;
+            box-shadow: 0 0 50px #c90;
+            border-radius: 50%;
+         
+            transition: all 0.5s ;
+        }
+        ul.solarsystem li.mercury{
+            width: 100px;
+            height: 100px;
+         
+            border-radius: 50%;
+            border: 2px solid #394057
+            ;
+            animation-duration: 5s;
+        }
+        li.mercury span{
+            width: 10px;
+            height: 10px;
+            background-color: #b6bac5;
+            border-radius: 50%;
+            top: 10px;
+            left: 8px;
+        }
+        ul.solarsystem li.venus{
+            width: 160px;
+            height: 160px;
+            border: 2px solid #394057;
+            border-radius: 50%;
+        
+            animation-duration: 8s;
+
+        }
+        li.venus span{
+            width: 10px;
+            height: 10px;
+            background-color: #bf8639;
+            border-radius: 50%;
+            top: 118;
+            left: 6px;
+            
+        }
+        ul.solarsystem li.earth{
+            width: 220px;
+            height: 220px;
+            border: 2px solid #394057;
+            border-radius: 50%;
+    
+            animation-duration: 12s;
+
+        }
+        li.earth span{
+            width: 15px;
+            height: 15px;
+            background-color: rgb(0, 132, 255);
+            border-radius: 50%;
+            top:56px;
+            left: 2px;  
+           animation: moon 2s infinite linear;
+            
+        }
+        ul.solarsystem  li.earth span.moon{
+            width: 4px;
+            height: 4px;
+           background-color: #ccc;
+           top: 20px;
+           left: 12px;
+            
+
+        }
+        ul.solarsystem li.mars{
+            width: 280px;
+            height: 280px;
+            border: 2px solid #394057;
+            border-radius: 50%;
+        
+            animation-duration:20s;
+
+        }
+        li.mars span{
+            width: 10px;
+            height: 10px;
+            background-color: #aa4200;
+            border-radius: 50%;
+            top: 75px;
+            left: 7px;
+            
+        }
+        ul.solarsystem li.asteroids{
+            width: 340px;
+            height: 340px;
+            background: url(http://neography.com/experiment/circles/solarsystem/asteroids_meteorids.png);
+           
+            border-radius: 50%;
+        
+            animation-duration:50s;
+
+        }
+        ul.solarsystem li.jupiter{
+            width: 340px;
+            height: 340px;
+            border: 2px solid #394057;
+            border-radius: 50%;
+        
+            animation-duration:30s;
+
+        }
+        li.jupiter span{
+            width: 10px;
+            height: 10px;
+            background-color: #e0ae6f;
+            border-radius: 50%;
+            top: 67px;
+            left: 24px;
+            
+        }
+        ul.solarsystem li.saturn{
+            width: 400px;
+            height: 400px;
+            border: 2px solid #394057;
+            border-radius: 50%;
+        
+            animation-duration:60s;
+
+        }
+        li.saturn span{
+            width: 10px;
+            height: 10px;
+            background-color: #dfd3a9;
+            border-radius: 50%;
+            top: 89px;
+            left: 24px;
+            
+        }
+        li.saturn span.ring{
+            width: 12px;
+            height: 12px;
+            border-radius: 8px;
+            border: 2px solid #5a4e34;
+            left: 3px;
+            background: none;
+            transform: skewY(50deg);
+            left:-3px;
+            top: -3px;
+        }
+        @keyframes orbit {
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes moon {
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+   */
