@@ -1,0 +1,355 @@
+@media only screen and (min-width:0px) and (max-width:765px){
+
+    
+    .menu{
+        display:none;
+        margin: auto;
+    }
+    .logo{
+        width: 1340px;
+        margin: auto;
+        
+    }
+    .background{
+        padding-top: 100px;
+        margin-top: 0;
+        background-position: center 100%;
+        padding: 30px;
+    }
+
+    .background-containt{
+
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-Us{
+        max-width:100%;
+        padding: 10px;
+        text-align: center;
+    
+    }
+
+    .about-Us h1{
+        font-size: 29px;
+       
+        margin-bottom: 15px;
+        
+    }
+    .about-Us h2{
+        font-size: 20px;
+       
+        margin-bottom: 10px;
+        
+    }
+    .about-Us h4{
+        font-size: 17px;
+        
+        
+        margin-bottom: 5px;
+        
+    }
+    .div-for-iso-logo{
+        margin: auto;
+        
+    }
+    .validation-form{
+     
+        max-width: 400px;
+        margin:  auto;
+        height:410px;
+   
+    }
+    
+    .validation-form h1{
+        font-size: 16px;
+        
+    }
+    .form{
+        text-align: center;
+    }
+    .text input{
+       max-width: 88%;
+        height: 33px;
+        border-radius: 2px;
+    
+    }
+    .captcha{
+        display: block;
+        
+    }
+    .captcha input{
+
+        width:70%;
+        margin-right: 0px;
+    
+    }
+    .cap-no{
+        width:80%;
+        height: 40px;
+        margin: auto;
+        background-color: rgb(180, 180, 51);
+        line-height: 45px;
+    
+    }
+
+    .btn button{
+        width:70%;
+       
+        margin-top: 0px;
+        border-radius: 8px;
+        
+    } 
+    .validation-form p{
+        font-size: 12px;
+        color: black;
+        font-family: sans-serif;
+        text-align: center;
+       
+        width:95%;
+        margin: 7px auto;
+    }
+
+    .packing-videos{
+        padding-top: 0px;
+        margin-top: 20px;
+    }
+    .heading h1{
+        
+        font-size: 23px;
+    
+    
+    }
+
+    .display{
+        display: block;
+        margin-top:20px;
+    }
+
+    .box{
+        height:280px;
+    }
+    .box p{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+      
+       
+    }
+
+    .service{
+        margin-top: 5px;
+        padding-top: 1px;
+    
+    }
+    .display-service-box{
+        display: block;
+       
+        }
+        .block{
+            max-width: 100%;
+            height: 630px;
+            margin-top: 20px;
+           
+        }
+        .detail-box{
+            max-width:500px;
+           
+            padding: 0px 10px;
+        }
+        .detail-box p{
+            margin-top: 10px;
+           
+            font-size: 16px;
+            text-align:justify;
+        }
+
+        .detail-box button{
+            width:100px;
+            background: linear-gradient(to right,#f6c123,yellow);
+            margin: 15px 196px;
+            box-shadow: 1px 2px 8px 2px linear-gradient(to right,#f6c123,yellow)  ;
+        } 
+
+
+        .why{
+            
+            margin-top: 20px;
+            padding-top: 30px;
+        }
+
+        .why-box{
+           
+             
+             display: grid;
+             grid-template-columns: 210px 210px;
+             grid-template-rows: 87px 87px 87px 136px;
+             margin-top: 30px;
+             height: 550px;
+             gap:50px
+             
+             
+          }
+          .why-box-1{
+            border-radius: 10px;
+            width:250px;
+            height: 125px;
+            text-align: center;
+            padding: 10px;
+            
+
+         }
+
+         .our{
+           
+            margin-top: 0px;
+            padding-top: 30px;
+            height: 500px;
+        
+        
+        }
+        .our-box{
+            grid-template-columns: 48% 48% ;
+            grid-template-rows: 100px 120px 125px;
+            gap: 10px;
+            margin-top: 30px;
+            
+            
+         }
+         
+         .our-box-1{
+            width:180px;  
+        }
+        .four-wheelers{
+            width:180px;
+        }
+        .two-wheelers{
+            width:172px;
+        }
+
+        .customer-box{
+
+            max-width:850px;
+            height: 380px;
+            margin: auto;
+            background-color:#155ED1;
+            border-radius: 20px;
+            margin-top: 20px;
+           
+            text-align: left;
+            padding-top: 240px;
+            padding-left: 40px;
+            padding-right: 30px;
+            
+            
+        
+        
+
+        }
+
+        .customer-box p{
+
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family:serif;
+    text-align: justify;
+    line-height: 18px;
+}
+.holder{
+
+    width: 147px;
+    height:150px;
+    position: absolute;
+    top:2%;
+    left:33%;
+    border-radius: 0px 10px 0px 10px;
+   
+}
+.holder img{
+    width:80px;
+    height: 80px;
+}
+.holder p{
+    margin-left: 25px;
+}
+
+.branches{
+    max-width:100%;
+    background-color: #ffffff;
+    height: 500px;
+    
+   
+    margin-top: 30px;
+    padding-top: 40px;
+
+
+}
+.branches-box{
+    max-width: 1100px;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+.branches-box-1{
+
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 20px;
+    
+    
+}
+
+
+.footer{
+    max-width:100%;
+    background-color:#eeeeee ;
+    height: 2220px;
+    
+   overflow: hidden;
+    margin-top: 10px;
+    padding-top: 30px;
+
+
+}
+
+.footer-box{
+    display: block;
+   
+    margin-top: 10px;
+   
+}
+.footer-left ul{
+    margin: 10px 100px;
+    text-align: center;
+}
+.footer-middle ul{
+    margin: 10px 100px;
+    text-align: center;
+}
+.footer-right ul{
+    margin: 10px 100px;
+    text-align: center;
+}
+.base{
+    display: none;
+}
+
+
+
+
+
+
+ }
+    
+    
