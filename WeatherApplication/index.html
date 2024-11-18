@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheather App With JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search-box">
+          <input
+            type="text "
+            placeholder="Enter your location"
+            class="input-box"/>
+          <button class="fa-solid fa-magnifying-glass" id="search-btn"></button>
+        </div>
+      </div>
+      <div class="error-body">
+        <h1>this id your error</h1>
+        <img src="images/177833624_57e2bf27-f636-4172-9ad4-31d6507a728d.jpg" alt="">
+      </div>
+      <div class="weather-body">
+        <img
+          src="images/15244310_SL_031221_41450_08.jpg"
+         
+          alt="weather"
+          class="weather-image"
+        />
+        <div class="weather-box">
+          <p class="temperature">0<sup> °C</sup></p>
+          <p class="description">Light Rain</p>
+        </div>
+        <div class="weather-details">
+          <div class="humidity">
+            <i class="fa-solid fa-droplet"></i>
+          
+          <div class="text">
+            <span id="humidity">0%</span>
+            <p>humidity</p>
+          </div>
+        </div>
+
+        <div class="wind">
+          <i class="fa-solid fa-wind"></i>
+       
+        <div class="text">
+          <span id="wind-speed">0Km/h</span>
+          <p>wind speed</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
